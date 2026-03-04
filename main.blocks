@@ -1,4 +1,52 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%7JVClKP?~-l;dGoXf(n">myShop</variable><variable id=";QKV-*qfe]L`B7=SN1u^">ship_Interceptor</variable><variable id="gy-q5Fi8}x^`DRJr(0v6">ship_figther</variable><variable id="?9D%qy2MlWfZ)O(EH@W#">ship_bomber</variable><variable id="|%4(xt/vEJLJ/K5p|Nw_">slots</variable><variable id="8EJ,oPbf,CXkih2e(9E/">myShopUI</variable></variables><block type="pxt-on-start" id="jRLusD#oV{$Bwti5Gw2Z" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="AhC~QJ(K[wc_.0?*t#T;"><mutation name="createItems" functionid="X?v=C`6q#x%8?{8Y;/X4"></mutation><next><block type="variables_set" id="5v]Zq08I62o|mBKfRSgQ"><field name="VAR" id="8EJ,oPbf,CXkih2e(9E/">myShopUI</field><value name="VALUE"><shadow type="math_number" id="KubjR,iw,*^Oq*%*$=;*"><field name="NUM">0</field></shadow><block type="shop_initShopUI" id="652U!?}DA6}pj9jUNl{e"><value name="slots"><block type="lists_create_with" id=":!H5MX3kcI1?a^t{/+|^" inline="false"><mutation items="9" horizontalafter="3"></mutation><value name="ADD0"><block type="shop_createSlot" id="aPVP}H;W1!w1Gd1(SxEm"><field name="type">shop.SlotType.Upgrade</field><value name="row"><shadow type="math_number" id="u}dqlpA,VU([IUp#VcW3"><field name="NUM">0</field></shadow></value><value name="col"><shadow type="math_number" id="FY%}[8_9h=?#Gb+GSs}N"><field name="NUM">0</field></shadow></value></block></value><value name="ADD1"><block type="shop_createSlot" id="Ww_0;TEuieV[L,L=D/A["><field name="type">shop.SlotType.Upgrade</field><value name="row"><shadow type="math_number" id="kA^$7rdGT;sr|yXXGG1b"><field name="NUM">0</field></shadow></value><value name="col"><shadow type="math_number" id="JfqJZc4mY+C1(t||B[-q"><field name="NUM">1</field></shadow></value></block></value><value name="ADD2"><block type="shop_createSlot" id="jj39DZ5.m{l_-jMV=am5"><field name="type">shop.SlotType.Upgrade</field><value name="row"><shadow type="math_number" id="5|zCBb%Y6tLeOlR9bvL)"><field name="NUM">0</field></shadow></value><value name="col"><shadow type="math_number" id="/43y2`M@%@-^mLKlJw_Z"><field name="NUM">2</field></shadow></value></block></value><value name="ADD3"><block type="shop_createSlot" id="=AQzb9`pYYx9B`S1)D;1"><field name="type">shop.SlotType.Upgrade</field><value name="row"><shadow type="math_number" id="*g]b##:df^vE+r7_9G.q"><field name="NUM">0</field></shadow></value><value name="col"><shadow type="math_number" id="(MAD~v?F+LTf,%Eq/)H]"><field name="NUM">3</field></shadow></value></block></value><value name="ADD4"><block type="shop_createSlot" id="o].x)bt(#N$ubn0m0Gl1"><field name="type">shop.SlotType.Upgrade</field><value name="row"><shadow type="math_number" id="[sVI)ALMS$7*a*g~2LJP"><field name="NUM">0</field></shadow></value><value name="col"><shadow type="math_number" id="Qjfui#s!XoZj)Ag,P0jc"><field name="NUM">4</field></shadow></value></block></value><value name="ADD5"><block type="shop_createSlot" id="}]@n(U5KNVBE=m@@H~UR"><field name="type">shop.SlotType.WeaponLeft</field><value name="row"><shadow type="math_number" id=",2u3XNHA]zKPbNfTJuLu"><field name="NUM">1</field></shadow></value><value name="col"><shadow type="math_number" id="8skj8rnQ%:ZAxVs7S*Pm"><field name="NUM">1</field></shadow></value></block></value><value name="ADD6"><block type="shop_createSlot" id="9@;o%rzgkbuQ8v^vktaO"><field name="type">shop.SlotType.Ship</field><value name="row"><shadow type="math_number" id="[7u$c1nD-/jEVxQHmPrr"><field name="NUM">1</field></shadow></value><value name="col"><shadow type="math_number" id="TnU1)BcPG?Y#n0_}PM(k"><field name="NUM">2</field></shadow></value></block></value><value name="ADD7"><block type="shop_createSlot" id="ph{O.:QVD*6ySC1V.:v-"><field name="type">shop.SlotType.WeaponRight</field><value name="row"><shadow type="math_number" id="mGE}Z+gq4;RQ/}=$x`qz"><field name="NUM">1</field></shadow></value><value name="col"><shadow type="math_number" id="[[V]*vH~e^RQ#1+0?N9@"><field name="NUM">3</field></shadow></value></block></value><value name="ADD8"><block type="shop_createSlot" id=".lKJ6zmb+FqvxdC#k!3q"><field name="type">shop.SlotType.Defense</field><value name="row"><shadow type="math_number" id="tg[{=4E_hoBnfu!E@@.y"><field name="NUM">2</field></shadow></value><value name="col"><shadow type="math_number" id="k-R$d+kQIQPoxWbx$DCy"><field name="NUM">2</field></shadow></value></block></value></block></value></block></value><next><block type="shop_setShopOfUI" id="^OB9*1iXboSy/Yuf/m,/"><value name="ui"><block type="variables_get" id="f2@of,EK*4=g_vNcm$^A"><field name="VAR" id="8EJ,oPbf,CXkih2e(9E/">myShopUI</field></block></value><value name="shop"><block type="variables_get" id="bs~hiL=$Z=+nU91OYFHR"><field name="VAR" id="%7JVClKP?~-l;dGoXf(n">myShop</field></block></value><next><block type="shop_enableUIControl" id="ZE%Qk?D4dGJ}Xo^RfjHX"><value name="ui"><block type="variables_get" id="veV3I*z.bqk)s.MS/p4N"><field name="VAR" id="8EJ,oPbf,CXkih2e(9E/">myShopUI</field></block></value></block></next></block></next></block></next></block></statement></block><block type="function_definition" id="O;Y*_e)h1!fV/7pQ6)(*" x="1452" y="151"><mutation name="createItems" functionid="X?v=C`6q#x%8?{8Y;/X4"></mutation><field name="function_name">createItems</field><statement name="STACK"><block type="variables_set" id="Fa-+?#BR)2?mW853~V9n"><field name="VAR" id="%7JVClKP?~-l;dGoXf(n">myShop</field><value name="VALUE"><shadow type="math_number" id="3%d{Lt}BcZ94J1dt()O+"><field name="NUM">0</field></shadow><block type="shop_initShop" id="MfUn)z:JR`)`hYOa_rT`"></block></value><next><block type="variables_set" id="f+|;Ig7GmTb;SNUK_(Zq"><field name="VAR" id=";QKV-*qfe]L`B7=SN1u^">ship_Interceptor</field><value name="VALUE"><shadow type="math_number" id="JLBmUQr[Dfe4aZ0cs+2R"><field name="NUM">0</field></shadow><block type="shop_createItem" id="F9VPBX;YK[%x[i6xDp@8"><field name="type">shop.SlotType.Ship</field><value name="name"><shadow type="text" id="w.ZKz#iFdV?$RnD=MD2M"><field name="TEXT">interceptor</field></shadow></value><value name="price"><shadow type="math_number" id="LlqF0e8%@1Pt1(Wiu{=j"><field name="NUM">10000</field></shadow></value><value name="img"><shadow type="screen_image_picker" id="qH-ztTQq-7*[q-1[$(^u"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . 1 1 . . . . . . . 
+. . . . . . . 1 1 . . . . . . . 
+. . . . . . 1 1 1 1 . . . . . . 
+. . . . . 1 d 1 1 d 1 . . . . . 
+. . . . 1 d d 8 8 d d 1 . . . . 
+. . . 1 1 d 8 8 8 8 d 1 1 . . . 
+. . 1 d 1 d 8 8 8 8 d 1 d 1 . . 
+. 1 d d 1 d 8 8 8 8 d 1 d d 1 . 
+1 d d d 1 d 1 d d 1 d 1 d d d 1 
+1 d d d 1 d 1 d d 1 d 1 d d d 1 
+1 d d d 1 1 1 1 1 1 1 1 d d d 1 
+1 d d d 1 1 . 1 1 . 1 1 d d d 1 
+1 1 1 1 1 . . . . . . 1 1 d d 1 
+. 1 1 . . . . . . . . . . 1 1 . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value></block></value><next><block type="variables_set" id="M]ma4b@3/pd9EMgEFy8["><field name="VAR" id="gy-q5Fi8}x^`DRJr(0v6">ship_figther</field><value name="VALUE"><shadow type="math_number" id="7i#H(JI4(.UArNQr8*3z"><field name="NUM">0</field></shadow><block type="shop_createItem" id="5nd.1wrRjrC%X+C4wv!b"><field name="type">shop.SlotType.Ship</field><value name="name"><shadow type="text" id="yycL]DrL,P!sJ$Y^pjVq"><field name="TEXT">fighter</field></shadow></value><value name="price"><shadow type="math_number" id="{g0*804g,w?;GI?d5~Pw"><field name="NUM">10000</field></shadow></value><value name="img"><shadow type="screen_image_picker" id="-b?~bKT.C8L_ZLmCJ*,Z"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . 1 1 . . . . . . . 
+. . . . . . 1 1 1 1 . . . . . . 
+. 1 1 1 . 1 1 1 1 1 1 . 1 1 1 . 
+1 d d d 1 d d 1 1 d d 1 d d d 1 
+1 d d d 1 d d 1 1 d d 1 d d d 1 
+1 d d d 1 d d 8 8 d d 1 d d d 1 
+1 1 1 1 1 d 8 8 8 8 d 1 1 1 1 1 
+1 d d d 1 d 8 8 8 8 d 1 d d d 1 
+1 d d d 1 d 8 8 8 8 d 1 d d d 1 
+1 d d d 1 d 1 d d 1 d 1 d d d 1 
+1 d d d 1 1 1 1 1 1 1 1 d d d 1 
+1 d d d 1 1 . 1 1 . 1 1 d d d 1 
+1 d d d 1 . . . . . . 1 d d d 1 
+1 1 1 1 1 . . . . . . 1 d d d 1 
+. 1 1 1 . . . . . . . . 1 1 1 . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value></block></value><next><block type="variables_set" id="S@_P/uy?lk7v2AX+uMQ#"><field name="VAR" id="?9D%qy2MlWfZ)O(EH@W#">ship_bomber</field><value name="VALUE"><shadow type="math_number" id="(fHUK|A18]WEmF/1k*B!"><field name="NUM">0</field></shadow><block type="shop_createItem" id="k,_Q`L5*}!~F]c+|7WAI"><field name="type">shop.SlotType.Ship</field><value name="name"><shadow type="text" id="#BYb8/)u6mb79W2)P6XY"><field name="TEXT">bomber</field></shadow></value><value name="price"><shadow type="math_number" id="kMGQ(-Ak}%CY=z6=EMF%"><field name="NUM">10000</field></shadow></value><value name="img"><shadow type="screen_image_picker" id="FL3sL3(D5;^6VnR%jz)8"><field name="img">img`
+. 1 1 1 . . . . . . . . 1 1 1 . 
+1 d d d 1 . . . . . . 1 d d d 1 
+1 d d d 1 . . . . . . 1 d d d 1 
+1 d d d 1 . . . . . . 1 d d d 1 
+1 1 1 1 1 . . 1 1 . . 1 1 1 1 1 
+1 d d d 1 . . 1 1 . . 1 d d d 1 
+1 d d d 1 . 1 1 1 1 . 1 d d d 1 
+1 d d d 1 1 d 1 1 d 1 1 d d d 1 
+1 d d d 1 d d 8 8 d d 1 d d d 1 
+1 1 1 1 1 d 8 8 8 8 d 1 1 1 1 1 
+1 d d d 1 d 8 8 8 8 d 1 d d d 1 
+1 1 1 1 1 d 8 8 8 8 d 1 1 1 1 1 
+. 1 1 1 1 d 1 d d 1 d 1 1 1 1 . 
+. . . . 1 d 1 d d 1 d 1 . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . . . 1 1 . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value></block></value><next><block type="shop_addItemToShopInventory" id="^V]91oA~k5xVnGuQPabk"><value name="item"><block type="variables_get" id="4,pB$04e|2j]^XC-|~)H"><field name="VAR" id="gy-q5Fi8}x^`DRJr(0v6">ship_figther</field></block></value><value name="shop"><block type="variables_get" id="q!Gt,CRF-qK2[OwKP{c8"><field name="VAR" id="%7JVClKP?~-l;dGoXf(n">myShop</field></block></value><next><block type="shop_addItemToShopInventory" id="XJ40EOPI8S9~U#0g=4q0"><value name="item"><block type="variables_get" id="=veZpPdhS,JuUp:Bgit0"><field name="VAR" id=";QKV-*qfe]L`B7=SN1u^">ship_Interceptor</field></block></value><value name="shop"><block type="variables_get" id="=$qJNV4BVL718=Lsu)cw"><field name="VAR" id="%7JVClKP?~-l;dGoXf(n">myShop</field></block></value><next><block type="shop_addItemToShopInventory" id=";G15+C;in0[R!sFdntV}"><value name="item"><block type="variables_get" id="}^]c9jtzuE]0(C1v+Ed."><field name="VAR" id="?9D%qy2MlWfZ)O(EH@W#">ship_bomber</field></block></value><value name="shop"><block type="variables_get" id="[W;DXsilNn/RSv7uJ7z/"><field name="VAR" id="%7JVClKP?~-l;dGoXf(n">myShop</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
